@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30D954BA286DAC87001EC37F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D954B9286DAC87001EC37F /* AppDelegate.swift */; };
+		30D954BC286DAC87001EC37F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D954BB286DAC87001EC37F /* SceneDelegate.swift */; };
+		30D954BE286DAC87001EC37F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D954BD286DAC87001EC37F /* ViewController.swift */; };
+		30D954C1286DAC87001EC37F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D954BF286DAC87001EC37F /* Main.storyboard */; };
+		30D954C3286DAC8A001EC37F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D954C2286DAC8A001EC37F /* Assets.xcassets */; };
+		30D954C6286DAC8A001EC37F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D954C4286DAC8A001EC37F /* LaunchScreen.storyboard */; };
+		30D954D1286DAC8B001EC37F /* Tedee_Recruitment_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D954D0286DAC8B001EC37F /* Tedee_Recruitment_TaskTests.swift */; };
+		30D954DB286DAC8B001EC37F /* Tedee_Recruitment_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D954DA286DAC8B001EC37F /* Tedee_Recruitment_TaskUITests.swift */; };
+		30D954DD286DAC8B001EC37F /* Tedee_Recruitment_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D954DC286DAC8B001EC37F /* Tedee_Recruitment_TaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30D954CD286DAC8B001EC37F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D954AE286DAC86001EC37F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D954B5286DAC86001EC37F;
+			remoteInfo = "Tedee Recruitment Task";
+		};
+		30D954D7286DAC8B001EC37F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D954AE286DAC86001EC37F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D954B5286DAC86001EC37F;
+			remoteInfo = "Tedee Recruitment Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30D954B6286DAC87001EC37F /* Tedee Recruitment Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tedee Recruitment Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D954B9286DAC87001EC37F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30D954BB286DAC87001EC37F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30D954BD286DAC87001EC37F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30D954C0286DAC87001EC37F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30D954C2286DAC8A001EC37F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30D954C5286DAC8A001EC37F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30D954C7286DAC8A001EC37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D954CC286DAC8B001EC37F /* Tedee Recruitment TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tedee Recruitment TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D954D0286DAC8B001EC37F /* Tedee_Recruitment_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tedee_Recruitment_TaskTests.swift; sourceTree = "<group>"; };
+		30D954D6286DAC8B001EC37F /* Tedee Recruitment TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tedee Recruitment TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D954DA286DAC8B001EC37F /* Tedee_Recruitment_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tedee_Recruitment_TaskUITests.swift; sourceTree = "<group>"; };
+		30D954DC286DAC8B001EC37F /* Tedee_Recruitment_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tedee_Recruitment_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30D954B3286DAC86001EC37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D954C9286DAC8B001EC37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D954D3286DAC8B001EC37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30D954AD286DAC86001EC37F = {
+			isa = PBXGroup;
+			children = (
+				30D954B8286DAC87001EC37F /* Tedee Recruitment Task */,
+				30D954CF286DAC8B001EC37F /* Tedee Recruitment TaskTests */,
+				30D954D9286DAC8B001EC37F /* Tedee Recruitment TaskUITests */,
+				30D954B7286DAC87001EC37F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30D954B7286DAC87001EC37F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D954B6286DAC87001EC37F /* Tedee Recruitment Task.app */,
+				30D954CC286DAC8B001EC37F /* Tedee Recruitment TaskTests.xctest */,
+				30D954D6286DAC8B001EC37F /* Tedee Recruitment TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D954B8286DAC87001EC37F /* Tedee Recruitment Task */ = {
+			isa = PBXGroup;
+			children = (
+				30D954B9286DAC87001EC37F /* AppDelegate.swift */,
+				30D954BB286DAC87001EC37F /* SceneDelegate.swift */,
+				30D954BD286DAC87001EC37F /* ViewController.swift */,
+				30D954BF286DAC87001EC37F /* Main.storyboard */,
+				30D954C2286DAC8A001EC37F /* Assets.xcassets */,
+				30D954C4286DAC8A001EC37F /* LaunchScreen.storyboard */,
+				30D954C7286DAC8A001EC37F /* Info.plist */,
+			);
+			path = "Tedee Recruitment Task";
+			sourceTree = "<group>";
+		};
+		30D954CF286DAC8B001EC37F /* Tedee Recruitment TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				30D954D0286DAC8B001EC37F /* Tedee_Recruitment_TaskTests.swift */,
+			);
+			path = "Tedee Recruitment TaskTests";
+			sourceTree = "<group>";
+		};
+		30D954D9286DAC8B001EC37F /* Tedee Recruitment TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30D954DA286DAC8B001EC37F /* Tedee_Recruitment_TaskUITests.swift */,
+				30D954DC286DAC8B001EC37F /* Tedee_Recruitment_TaskUITestsLaunchTests.swift */,
+			);
+			path = "Tedee Recruitment TaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30D954B5286DAC86001EC37F /* Tedee Recruitment Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D954E0286DAC8B001EC37F /* Build configuration list for PBXNativeTarget "Tedee Recruitment Task" */;
+			buildPhases = (
+				30D954B2286DAC86001EC37F /* Sources */,
+				30D954B3286DAC86001EC37F /* Frameworks */,
+				30D954B4286DAC86001EC37F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tedee Recruitment Task";
+			productName = "Tedee Recruitment Task";
+			productReference = 30D954B6286DAC87001EC37F /* Tedee Recruitment Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30D954CB286DAC8B001EC37F /* Tedee Recruitment TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D954E3286DAC8B001EC37F /* Build configuration list for PBXNativeTarget "Tedee Recruitment TaskTests" */;
+			buildPhases = (
+				30D954C8286DAC8B001EC37F /* Sources */,
+				30D954C9286DAC8B001EC37F /* Frameworks */,
+				30D954CA286DAC8B001EC37F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D954CE286DAC8B001EC37F /* PBXTargetDependency */,
+			);
+			name = "Tedee Recruitment TaskTests";
+			productName = "Tedee Recruitment TaskTests";
+			productReference = 30D954CC286DAC8B001EC37F /* Tedee Recruitment TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30D954D5286DAC8B001EC37F /* Tedee Recruitment TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D954E6286DAC8B001EC37F /* Build configuration list for PBXNativeTarget "Tedee Recruitment TaskUITests" */;
+			buildPhases = (
+				30D954D2286DAC8B001EC37F /* Sources */,
+				30D954D3286DAC8B001EC37F /* Frameworks */,
+				30D954D4286DAC8B001EC37F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D954D8286DAC8B001EC37F /* PBXTargetDependency */,
+			);
+			name = "Tedee Recruitment TaskUITests";
+			productName = "Tedee Recruitment TaskUITests";
+			productReference = 30D954D6286DAC8B001EC37F /* Tedee Recruitment TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30D954AE286DAC86001EC37F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					30D954B5286DAC86001EC37F = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					30D954CB286DAC8B001EC37F = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 30D954B5286DAC86001EC37F;
+					};
+					30D954D5286DAC8B001EC37F = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 30D954B5286DAC86001EC37F;
+					};
+				};
+			};
+			buildConfigurationList = 30D954B1286DAC86001EC37F /* Build configuration list for PBXProject "Tedee Recruitment Task" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30D954AD286DAC86001EC37F;
+			productRefGroup = 30D954B7286DAC87001EC37F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30D954B5286DAC86001EC37F /* Tedee Recruitment Task */,
+				30D954CB286DAC8B001EC37F /* Tedee Recruitment TaskTests */,
+				30D954D5286DAC8B001EC37F /* Tedee Recruitment TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30D954B4286DAC86001EC37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D954C6286DAC8A001EC37F /* LaunchScreen.storyboard in Resources */,
+				30D954C3286DAC8A001EC37F /* Assets.xcassets in Resources */,
+				30D954C1286DAC87001EC37F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D954CA286DAC8B001EC37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D954D4286DAC8B001EC37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D954B2286DAC86001EC37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D954BE286DAC87001EC37F /* ViewController.swift in Sources */,
+				30D954BA286DAC87001EC37F /* AppDelegate.swift in Sources */,
+				30D954BC286DAC87001EC37F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D954C8286DAC8B001EC37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D954D1286DAC8B001EC37F /* Tedee_Recruitment_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D954D2286DAC8B001EC37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D954DD286DAC8B001EC37F /* Tedee_Recruitment_TaskUITestsLaunchTests.swift in Sources */,
+				30D954DB286DAC8B001EC37F /* Tedee_Recruitment_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30D954CE286DAC8B001EC37F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D954B5286DAC86001EC37F /* Tedee Recruitment Task */;
+			targetProxy = 30D954CD286DAC8B001EC37F /* PBXContainerItemProxy */;
+		};
+		30D954D8286DAC8B001EC37F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D954B5286DAC86001EC37F /* Tedee Recruitment Task */;
+			targetProxy = 30D954D7286DAC8B001EC37F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30D954BF286DAC87001EC37F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D954C0286DAC87001EC37F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30D954C4286DAC8A001EC37F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D954C5286DAC8A001EC37F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30D954DE286DAC8B001EC37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30D954DF286DAC8B001EC37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30D954E1286DAC8B001EC37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tedee Recruitment Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tp.Tedee-Recruitment-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30D954E2286DAC8B001EC37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tedee Recruitment Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tp.Tedee-Recruitment-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30D954E4286DAC8B001EC37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tp.Tedee-Recruitment-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tedee Recruitment Task.app/Tedee Recruitment Task";
+			};
+			name = Debug;
+		};
+		30D954E5286DAC8B001EC37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tp.Tedee-Recruitment-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tedee Recruitment Task.app/Tedee Recruitment Task";
+			};
+			name = Release;
+		};
+		30D954E7286DAC8B001EC37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tp.Tedee-Recruitment-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tedee Recruitment Task";
+			};
+			name = Debug;
+		};
+		30D954E8286DAC8B001EC37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tp.Tedee-Recruitment-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tedee Recruitment Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30D954B1286DAC86001EC37F /* Build configuration list for PBXProject "Tedee Recruitment Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D954DE286DAC8B001EC37F /* Debug */,
+				30D954DF286DAC8B001EC37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D954E0286DAC8B001EC37F /* Build configuration list for PBXNativeTarget "Tedee Recruitment Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D954E1286DAC8B001EC37F /* Debug */,
+				30D954E2286DAC8B001EC37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D954E3286DAC8B001EC37F /* Build configuration list for PBXNativeTarget "Tedee Recruitment TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D954E4286DAC8B001EC37F /* Debug */,
+				30D954E5286DAC8B001EC37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D954E6286DAC8B001EC37F /* Build configuration list for PBXNativeTarget "Tedee Recruitment TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D954E7286DAC8B001EC37F /* Debug */,
+				30D954E8286DAC8B001EC37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30D954AE286DAC86001EC37F /* Project object */;
+}
