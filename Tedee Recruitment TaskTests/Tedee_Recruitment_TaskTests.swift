@@ -1,36 +1,72 @@
-//
-//  Tedee_Recruitment_TaskTests.swift
-//  Tedee Recruitment TaskTests
-//
-//  Created by Tomasz Paluch on 30/06/2022.
-//
-
 import XCTest
 @testable import Tedee_Recruitment_Task
 
-class Tedee_Recruitment_TaskTests: XCTestCase {
-
+class Tedee_Recruitment_Task_PinsManagerTests: XCTestCase {
+    var pinsManager: PinsManager!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        pinsManager = .mock
+    }
+    
+    override func tearDown() {
+        pinsManager = .mock
+    }
+    
+    func testGetPinsCount_Standard_Returns3() throws {
+        XCTAssertEqual(pinsManager.count, 3)
+    }
+    
+    func testGetPinName_First_ReturnsAlbania() throws {
+        XCTAssertEqual(pinsManager.getName(ofPinAt: 0), "Albania")
+    }
+    
+    func testRepleacePin_First_ReturnsBelgia() throws {
+        let newPin = Pin(name: "Hiszpania", code: "123765")
+        let oldPin = pinsManager.pins[0]
+        pinsManager.repleacePin(oldPin, for: newPin)
+        XCTAssertEqual(pinsManager.getName(ofPinAt: 0), "Belgia")
+    }
+    
+    func testAddPin_Add4thPin_ReturnsCount4() throws {
+        let newPin = Pin(name: "Rower", code: "125665")
+        pinsManager.addPin(newPin)
+        XCTAssertEqual(pinsManager.count, 4)
+    }
+    
+    func testRemovePin_First_ReturnsCount3() throws {
+        pinsManager.removePin(at: 0)
+        XCTAssertEqual(pinsManager.count, 2)
+    }
+}
+
+class Tedee_Recruitment_Task_DetailsLogicTests: XCTestCase {
+    var detailsLogic: DetailsLogicMock!
+    
+    override func setUpWithError() throws {
+        detailsLogic = DetailsLogicMock()
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testConsecutivness_134568_ReturnsFalse() throws {
+        XCTAssertEqual(detailsLogic.testArrayForConsecutivness([1,3,4,5,6,8]), false)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func testConsecutivness_123456_ReturnsTrue() throws {
+        XCTAssertEqual(detailsLogic.testArrayForConsecutivness([1,2,3,4,5,6]), true)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testConsecutivness_654321_ReturnsFalse() throws {
+        XCTAssertEqual(detailsLogic.testArrayForConsecutivness([6,5,4,3,2,1]), true)
     }
-
+    
+    func testConsecutivness_654322_ReturnsFalse() throws {
+        XCTAssertEqual(detailsLogic.testArrayForConsecutivness([6,5,4,3,2,2]), false)
+    }
+    
+    func testConsecutivness_456789_ReturnsTrue() throws {
+        XCTAssertEqual(detailsLogic.testArrayForConsecutivness([4,5,6,7,8,9]), true)
+    }
+    
+    func testConsecutivness_987654_ReturnsFalse() throws {
+        XCTAssertEqual(detailsLogic.testArrayForConsecutivness([9,8,7,6,5,4]), true)
+    }
 }
